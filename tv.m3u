@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="National Geographic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nat_geo_us_hd.png"
+https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-name="Love Nature" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/love_nature_ca.png" group-title="Nature"
+http://bamus-eng-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/discovery-channel-east-us.png"
+https://bozztv.com/teleyupp/teleup-discovery/playlist.m3u8
+#EXTINF:-1 tvg-name="NASA" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nasa_tv_us.png"
+https://linkastream.co/streamlink?url=https://www.youtube.com/watch?v=nA9UZF-SZoQ
+#EXTINF:-1 tvg-name="RT France" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rt-france-ru-fr.png" group-title="News"
+https://linkastream.co/streamlink?url=https://www.youtube.com/watch?v=SjV-bNomRkY
+#EXTINF:-1 tvg-name="DZRH TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/dzrh-tv-ph.png" group-title="News"
+https://linkastream.co/streamlink?url=https://www.youtube.com/watch?v=uRLg3vA8SX8
+#EXTINF:-1 tvg-name="ICI Television" tvg-logo="http://icitelevision.ca/wp-content/uploads/2017/10/logoretina.png" group-title="Canada"
+https://ici-i.akamaihd.net/hls/live/873426/ICI-Live-Stream/master.m3u8
+#EXTINF:-1 tvg-name="Stadium" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/85/Stadium_logo_2017.png" group-title="Sports"
+https://iptv--iptv.repl.co/streamlink?url=https://watchstadium.com/live/
+#EXTINF:-1 tvg-name="BBS NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/85/Stadium_logo_2017.png" group-title="Sports"
+https://iptv--iptv.repl.co/streamlink?url=https://www.filmon.com/tv/bbc-news
