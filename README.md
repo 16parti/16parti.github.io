@@ -2,7 +2,6 @@
 ### Rules
 
 - No pull requests allowed
-- Only request channels in issues
 
 ### How to
 
