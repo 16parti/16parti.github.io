@@ -5,5 +5,5 @@ function getUrlVars() {
     vars[key] = value;
   });
   return vars;}
-document.getElementById("v").src=decodeURI(getUrlVars()["u"]);
+document.getElementById("v").src=decodeURIComponent(getUrlVars()["u"]);
 </script>
