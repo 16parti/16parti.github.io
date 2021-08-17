@@ -1,9 +1,7 @@
 <video id=v autoplay></video><script>
-function getUrlVars() {
-  var vars = {};
-  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-    vars[key] = value;
-  });
-  return vars;}
-document.getElementById("v").src=decodeURIComponent(getUrlVars()["u"]);
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+ vars[key] = value;
+});
+document.getElementById("v").src=decodeURIComponent(vars.u);
 </script>
