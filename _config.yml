@@ -25,12 +25,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: kramdown
-remote-theme: "riggraz/no-style-please"
 plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
   - jekyll-seo-tag
+markdown: GFM
+theme: no-style-please
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
