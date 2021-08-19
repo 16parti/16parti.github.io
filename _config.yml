@@ -22,7 +22,7 @@ url: "http://tfc.television.si" # the base hostname & protocol for your site, e.
 twitter_username: jekyllrb
 github_username:  jekyll
 theme_config:
-  appearance:"light"
+  appearance: "light"
   show_description: true
 # Build settings
 plugins:
