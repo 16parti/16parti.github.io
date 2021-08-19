@@ -171,6 +171,10 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.4)
     multipart-post (2.1.1)
+    no-style-please (0.4.7)
+      jekyll (~> 3.9.0)
+      jekyll-feed (~> 0.15.1)
+      jekyll-seo-tag (~> 2.7.1)
     nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
@@ -219,7 +223,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 217)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  jekyll-remote-theme
+  no-style-please
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
