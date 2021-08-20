@@ -16,7 +16,7 @@
 </style>
 <video id=v src="http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106" autoplay></video>
 <script>
-	window.location.href.replace(/\/.+\/(.+)/,function(b,a){
+	window.location.href.replace(/\?(.+)/,function(b,a){
 		document.getElementById("v").src = decodeURIComponent(a);
 	});
 </script>
