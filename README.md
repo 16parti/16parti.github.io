@@ -13,6 +13,11 @@
 		document.getElementById("v").src = decodeURIComponent(a);
 	});
 </script>
+<script>
+	try{adthstb}
+	catch{document.getElementById('a').src='//cdn.jsdelivr.net/npm/hls.js@latest'}
+</script>
+<script id=a></script>
 [BobEponge](/?http%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F609a33d06972da0007748ecf%2Fmaster.m3u8%3FappName%3Dweb%26appVersion%3Dunknown%26clientTime%3D0%26deviceDNT%3D0%26deviceId%3D35fc9fd0-e986-11eb-a0af-c3b401f46211%26deviceMake%3DChrome%26deviceModel%3Dweb%26deviceType%3Dweb%26deviceVersion%3Dunknown%26includeExtendedEvents%3Dfalse%26serverSideAds%3Dfalse%26sid%3D195dd54b-932b-4f28-be70-7e736585335a)
 [SuperRadyoDZBB](/?http%3A%2F%2Fstream.gmanews.tv%2Fioslive%2Flivestream%2Fchunklist.m3u8%3Fwowzasessionid%3D693701106)
 [Cine+](/tv?http%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F5ff5eb810e2996000768c0e2%2Fmaster.m3u8%3FappName%3Dweb%26appVersion%3Dunknown%26clientTime%3D0%26deviceDNT%3D0%26deviceId%3D2c89a930-e98a-11eb-a932-2f3c780ff9ff%26deviceMake%3DChrome%26deviceModel%3Dweb%26deviceType%3Dweb%26deviceVersion%3Dunknown%26includeExtendedEvents%3Dfalse%26serverSideAds%3Dfalse%26sid%3Dd7d7d33d-5784-4dee-a799-d09bd30b065a)
