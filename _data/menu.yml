@@ -6,4 +6,4 @@ entries:
       show_more: true
       limit: 5
       show_more_text: More Channels
-      show_more_url: archive
+      show_more_url: archive.html
