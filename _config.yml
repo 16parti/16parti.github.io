@@ -17,7 +17,7 @@ theme_config:
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-markdown: GFM
+markdown: kramdown
 remote_theme: riggraz/no-style-please
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
