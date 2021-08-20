@@ -1,4 +1,6 @@
 # tfc.television.si (Domain name from freedns.afraid.org)
+## Don't have subscription? Use the same box to watch PlutoTV
+
 ### Rules
 
 - No pull requests allowed
