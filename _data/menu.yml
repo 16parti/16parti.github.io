@@ -3,4 +3,7 @@ entries:
     url: https://github.com/16parti/16parti.github.io/
   - title: Channels
     post_list:
-      show_more: false
+      show_more: true
+      limit: 5
+      show_more_text: More Channels
+      show_more_url: archive
