@@ -15,6 +15,7 @@
 	});
 	if(Hls.isSupported()) {
 		var hls = new Hls();
+		hls.loadSource(document.getElementById('v').src);
 		hls.attachMedia(document.getElementById('v'));
 	}
 </script>
