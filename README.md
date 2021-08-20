@@ -1,7 +1,9 @@
-[```About```](/help) [```Github```](//github.com/16parti/16parti.github.io)
-
----
+<ul>
+	<li>[```About```](/help)</li>
+	<li>[```Github```](//github.com/16parti/16parti.github.io)</li>
+</ul>
 <style>
+	li{display:inline-block;} 
 	a{
 		padding: 19px;
 		font-size: 23px;
