@@ -3,6 +3,7 @@
 		padding: 19px;
 		font-size: 23px;
 		display: block;
+		color:red;
 	}
 	a:focus {
 		border-style: solid;
