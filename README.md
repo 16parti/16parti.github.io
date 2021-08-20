@@ -1,4 +1,6 @@
-(```About```)[/help]
+---
+### [```About```](/help) [```Github```](//github.com/16parti/16parti.github.io)
+---
 <style>
 	a {
 		padding: 19px;
