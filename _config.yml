@@ -5,7 +5,6 @@
 # in the templates via {{ site.myvariable }}.
 title: TFC Alternative Portal
 description: Don't have subscription? Use the same box to watch PlutoTV
-baseurl: "/tv/"
 url: "http://tfc.television.si"
 plugins:
   - jekyll-seo-tag
