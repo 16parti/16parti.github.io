@@ -6,7 +6,7 @@
 title: TFC Alternative Portal
 description: >- # this means to ignore newlines until "baseurl:"
   Don't have subscription? Use the same box to watch PlutoTV
-baseurl: ""
+baseurl: "http://tfc.television.si/index"
 url: "http://tfc.television.si"
 
 plugins:
