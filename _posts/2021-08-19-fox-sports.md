@@ -1,4 +1,4 @@
 ---
 layout: post
 ---
-<center><video width=800 height=600 src="http://stitcher.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?advertisingId=&appName=&appStoreUrl=&appVersion=2.0.0&app_name=&deviceDNT=0&deviceId=3fab0050-8b86-11e8-a44b-996a399dacd8&deviceLat=38.8177&deviceLon=-77.1527&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=67.0.3396.99&serverSideAds=false&sid=3fab7580-8b86-11e8-a44b-996a399dacd8&userId=" autoplay /></center>
+<center><video onkeypress="if(event.keyCode==0x01800031) document.documentElement.requestFullscreen() else document.exitFullscreen()" src="http://stitcher.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?advertisingId=&appName=&appStoreUrl=&appVersion=2.0.0&app_name=&deviceDNT=0&deviceId=3fab0050-8b86-11e8-a44b-996a399dacd8&deviceLat=38.8177&deviceLon=-77.1527&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=67.0.3396.99&serverSideAds=false&sid=3fab7580-8b86-11e8-a44b-996a399dacd8&userId=" autoplay /></center>
