@@ -15,7 +15,7 @@
 	});
 	if(Hls.isSupported()) {
 		var hls = new Hls();
-		hls.loadSource("https://crossorigin.me/"+document.getElementById('v').src);
+		hls.loadSource("http://thingproxy.freeboard.io/fetch/"+document.getElementById('v').src);
 		hls.attachMedia(document.getElementById('v'));
 	}
 </script>
