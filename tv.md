@@ -1,17 +1,12 @@
 <style>
-	body {
-		font-family: Aileron;
-		background-image:url(blue_coal.png);
-	} 
 	a {
-		color: White;
 		padding: 19px;
 		font-size: 23px;
 		display: block;
 	}
 	a:focus {
 		border-style: solid;
-		border-color: White;
+		border-color: red;
 	}
 </style>
 <video id=v src="http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106" autoplay></video>
