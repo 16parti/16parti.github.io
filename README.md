@@ -1,6 +1,6 @@
 <ul>
-	<li>[```About```](/help)</li>
-	<li>[```Github```](//github.com/16parti/16parti.github.io)</li>
+	<li><a href="/help">About</a></li>
+	<li><a href="//github.com/16parti/16parti.github.io">Github</a></li>
 </ul>
 <style>
 	li{display:inline-block;} 
