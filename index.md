@@ -1,8 +1,4 @@
 <style>
-	@font-face {
-		font-family: Aileron;
-		src: url(Aileron-Regular.otf);
-	}
 	body {
 		font-family: Aileron;
 		background-image:url(blue_coal.png);
