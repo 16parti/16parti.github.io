@@ -7,11 +7,11 @@
 		display: block;
 	}
 </style>
-<video id=v onclick="play()" src="http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106" autoplay></video>
+<video id=v src="http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106" autoplay></video>
 <script>
 	var v=document.getElementById("v");
 	window.location.href.replace(/\?(.+)/,function(b,a){
-		v.src = decodeURIComponent(a);
+		v.src=decodeURIComponent(a);
 	});
 	try{adthstb}
 	catch{v.src='https://temp.media/video/?height=400&width=1000&length=10&text=UseTfcIptvBox'}
