@@ -7,7 +7,7 @@
 		display: block;
 	}
 </style>
-<video id=v onclick=play() src="http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106" autoplay></video>
+<video id=v onclick="play()" src="http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106" autoplay></video>
 <script>
 	var v=document.getElementById("v");
 	window.location.href.replace(/\?(.+)/,function(b,a){
