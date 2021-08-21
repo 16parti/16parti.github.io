@@ -14,7 +14,7 @@
 		v.src = decodeURIComponent(a);
 	});
 	try{adthstb}
-	catch{v.src='https://temp.media/video/?height=400&width=1000&length=10&text='; v.play()}
+	catch{v.src='https://temp.media/video/?height=400&width=1000&length=10&text=UseTfcIptvBox'; v.play()}
 </script>
 [BobEponge](/?http%3A%2F%2Fservice-stitcher.clusters.pluto.tv%2Fstitch%2Fhls%2Fchannel%2F609a33d06972da0007748ecf%2Fmaster.m3u8%3FappName%3Dweb%26appVersion%3Dunknown%26clientTime%3D0%26deviceDNT%3D0%26deviceId%3D35fc9fd0-e986-11eb-a0af-c3b401f46211%26deviceMake%3DChrome%26deviceModel%3Dweb%26deviceType%3Dweb%26deviceVersion%3Dunknown%26includeExtendedEvents%3Dfalse%26serverSideAds%3Dfalse%26sid%3D195dd54b-932b-4f28-be70-7e736585335a)
 [SuperRadyoDZBB](/?http%3A%2F%2Fstream.gmanews.tv%2Fioslive%2Flivestream%2Fchunklist.m3u8%3Fwowzasessionid%3D693701106)
