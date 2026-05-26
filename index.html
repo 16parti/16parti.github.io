@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="color-scheme" content="light dark">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"
+		>
+		<script>
+		var dictDec = {
+"w":"q",
+"e":"w",
+"r":"e",
+"t":"r",
+"y":"t",
+"u":"y",
+"i":"u",
+"o":"[i|p]",
+"p":"o",
+"s":"a",
+"d":"s",
+"f":"d",
+"g":"f",
+"h":"g",
+"j":"h",
+"k":"[j|l]",
+"l":"k",
+"L":"K",
+"x":"z",
+"c":"x",
+"v":"c",
+"b":"v",
+"n":"[b|m]",
+"m":"n",
+"M":"N",
+"W":"Q",
+"E":"W",
+"R":"E",
+"T":"R",
+"Y":"T",
+"U":"Y",
+"I":"U",
+"O":"[I|P]",
+"P":"O",
+"S":"A",
+"D":"S",
+"F":"D",
+"G":"F",
+"H":"G",
+"J":"H",
+"K":"[J|L]",
+"X":"Z",
+"C":"X",
+"V":"C",
+"B":"V",
+"N":"[B|M]",
+};
+		var dictEnc = {
+"q":"w",
+"w":"e",
+"e":"r",
+"r":"t",
+"t":"y",
+"y":"u",
+"u":"i",
+"i":"o",
+"o":"p",
+"p":"o",
+"a":"s",
+"s":"d",
+"d":"f",
+"f":"g",
+"g":"h",
+"h":"j",
+"j":"k",
+"k":"l",
+"l":"k",
+"z":"x",
+"x":"c",
+"c":"v",
+"v":"b",
+"b":"n",
+"n":"m",
+"m":"n",
+"Q":"W",
+"W":"E",
+"E":"R",
+"R":"T",
+"T":"Y",
+"Y":"U",
+"U":"I",
+"I":"O",
+"O":"P",
+"P":"O",
+"A":"S",
+"S":"D",
+"D":"F",
+"F":"G",
+"G":"H",
+"H":"J",
+"J":"K",
+"K":"L",
+"L":"K",
+"Z":"X",
+"X":"C",
+"C":"V",
+"V":"B",
+"B":"N",
+"N":"M",
+"M":"N",
+};
+		function wertyu(dict) {
+			var txt = ""
+			var input = message.value;
+			for (let i = 0; i < input.length; ++i) {
+				let c = input.charAt(i);
+				txt += dict.hasOwnProperty(c) ? dict[c] : c;
+			}
+			message.value = txt;
+		}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>Wertyu Translator</h1>
+		</header>
+		<main>
+			<textarea id="message" rows="4" cols="50" placeholder="Put message here"></textarea>
+		</main>
+		<footer>
+			<button onclick="wertyu(dictDec)">Decode Message</button>
+			<button onclick="wertyu(dictEnc)">Encode Message</button>
+		</footer>
+	</body>
+</html>
